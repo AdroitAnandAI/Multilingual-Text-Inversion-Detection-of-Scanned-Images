@@ -11,13 +11,15 @@ In this project, an algorithm to efficiently localize text has been implemented.
 ## How to run:
 ```
 docker pull karthik199712/inversion:cv
-
+```
 To execute the pipeline with default image:
+```
 sudo docker run -it karthik199712/inversion:cv main.py
-
+```
 To execute the pipeline with an image in the dataset, give the image path and name after --image flag. 
 
 For instance, to execute with 1.png, command is as below:
+```
 sudo docker run -it karthik199712/inversion:cv main.py --image ./data/1.png
 ```
 

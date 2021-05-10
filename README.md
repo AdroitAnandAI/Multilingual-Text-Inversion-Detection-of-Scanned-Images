@@ -31,4 +31,4 @@ sudo docker run -it karthik199712/inversion:cv main.py --image ./data/1.png
   <img src="upright.png">
 </p> 
 
-- Co-working Credits: Karthik K
+- Co-working Credits: Karthik K @karthik1997

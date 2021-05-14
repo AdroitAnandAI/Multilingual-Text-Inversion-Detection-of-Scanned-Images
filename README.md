@@ -18,17 +18,57 @@ sudo docker run -it karthik199712/inversion:cv main.py
 ```
 To execute the pipeline with an image in the dataset, give the image path and name after --image flag. 
 
-For instance, to execute with 1.png, command is as below:
+For instance, to execute with 11.png input image, command is as below:
+```
+sudo docker run -it karthik199712/inversion:cv main.py --image ./data/11.png
+```
+
+## Upright English Image
+```
+sudo docker run -it karthik199712/inversion:cv main.py --image ./data/0.png
+```
+<p align="center">
+  <img src="upright.png">
+</p> 
+
+## Inverted English Image
 ```
 sudo docker run -it karthik199712/inversion:cv main.py --image ./data/1.png
 ```
-
 <p align="center">
   <img src="inverted.png">
 </p> 
 
+## Upright Malayalam Image
+```
+sudo docker run -it karthik199712/inversion:cv main.py --image ./data/mal1.png
+```
 <p align="center">
-  <img src="upright.png">
+  <img src="mal1.png">
+</p> 
+
+## Inverted English Image
+```
+sudo docker run -it karthik199712/inversion:cv main.py --image ./data/mal2.png
+```
+<p align="center">
+  <img src="mal2.png">
+</p> 
+
+## Upright Greek Image
+```
+sudo docker run -it karthik199712/inversion:cv main.py --image ./data/greek1.png
+```
+<p align="center">
+  <img src="greek1.png">
+</p> 
+
+## Inverted Greek Image
+```
+sudo docker run -it karthik199712/inversion:cv main.py --image ./data/greek2.png
+```
+<p align="center">
+  <img src="greek2.png">
 </p> 
 
 - Co-working Credits: [Karthik K](https://github.com/karthik1997)

@@ -44,7 +44,7 @@ sudo docker run -it karthik199712/inversion:cv main.py --image ./data/1.png
 sudo docker run -it karthik199712/inversion:cv main.py --image ./data/mal1.png
 ```
 <p align="center">
-  <img src="mal1.png">
+  <img src="mal_upright.png">
 </p> 
 
 ## Inverted English Image
@@ -52,7 +52,7 @@ sudo docker run -it karthik199712/inversion:cv main.py --image ./data/mal1.png
 sudo docker run -it karthik199712/inversion:cv main.py --image ./data/mal2.png
 ```
 <p align="center">
-  <img src="mal2.png">
+  <img src="mal_inverted.png">
 </p> 
 
 ## Upright Greek Image
@@ -60,7 +60,7 @@ sudo docker run -it karthik199712/inversion:cv main.py --image ./data/mal2.png
 sudo docker run -it karthik199712/inversion:cv main.py --image ./data/greek1.png
 ```
 <p align="center">
-  <img src="greek1.png">
+  <img src="greek_upright.png">
 </p> 
 
 ## Inverted Greek Image
@@ -68,7 +68,7 @@ sudo docker run -it karthik199712/inversion:cv main.py --image ./data/greek1.png
 sudo docker run -it karthik199712/inversion:cv main.py --image ./data/greek2.png
 ```
 <p align="center">
-  <img src="greek2.png">
+  <img src="greek_inverted.png">
 </p> 
 
 - Co-working Credits: [Karthik K](https://github.com/karthik1997)

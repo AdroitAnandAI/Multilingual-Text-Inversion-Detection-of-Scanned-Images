@@ -22,6 +22,9 @@ For instance, to execute with 11.png input image, command is as below:
 ```
 sudo docker run -it karthik199712/inversion:cv main.py --image ./data/11.png
 ```
+The deep learning implementation for comparison is available in VGG16_INFERENCE_BASE.ipynb.
+
+You can find some output examples as below.
 
 ## Upright English Image
 ```

@@ -50,7 +50,7 @@ sudo docker run -it karthik199712/computer_vision:cv main.py --image ./data/mal1
   <img src="mal_upright.png">
 </p> 
 
-## Inverted English Image
+## Inverted Malayalam Image
 ```
 sudo docker run -it karthik199712/computer_vision:cv main.py --image ./data/mal2.png
 ```

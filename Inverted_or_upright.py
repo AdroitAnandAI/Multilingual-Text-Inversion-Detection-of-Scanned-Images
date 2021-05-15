@@ -1,6 +1,3 @@
-# Stub code taken from below link and modified extensively to cater to the use case. 
-# https://github.com/creotiv/computer_vision/tree/master/shape_context
-
 import numpy as np
 import cv2
 import sys
@@ -122,7 +119,8 @@ def language_identification(language_base,testImg):
         langs.append(language)
         langs = list(set(langs))
     #checking for the minimal matchfactor to identify the language
-    matc = min(matchs)
+    #matc = min(matchs)
+    matc = min(matchs, key = lambda t: t[1])
     index = matchs.index(matc)
     language_identified = langs[index]
 
@@ -130,6 +128,8 @@ def language_identification(language_base,testImg):
     
             
             
+
+    
 
 
 

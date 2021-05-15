@@ -10,17 +10,17 @@ In this project, an algorithm to efficiently localize text has been implemented.
 
 ## How to run:
 ```
-docker pull karthik199712/inversion:cv
+docker pull karthik199712/computer_vision:cv
 ```
 To execute the pipeline with default image:
 ```
-sudo docker run -it karthik199712/inversion:cv main.py
+sudo docker run -it karthik199712/computer_vision:cv main.py
 ```
 To execute the pipeline with an image in the dataset, give the image path and name after --image flag. 
 
 For instance, to execute with 11.png input image, command is as below:
 ```
-sudo docker run -it karthik199712/inversion:cv main.py --image ./data/11.png
+sudo docker run -it karthik199712/computer_vision:cv main.py --image ./data/11.png
 ```
 The deep learning implementation for comparison is available in VGG16_INFERENCE_BASE.ipynb.
 
@@ -28,7 +28,7 @@ You can find some output examples as below.
 
 ## Upright English Image
 ```
-sudo docker run -it karthik199712/inversion:cv main.py --image ./data/0.png
+sudo docker run -it karthik199712/computer_vision:cv main.py --image ./data/0.png
 ```
 <p align="center">
   <img src="upright.png">
@@ -36,7 +36,7 @@ sudo docker run -it karthik199712/inversion:cv main.py --image ./data/0.png
 
 ## Inverted English Image
 ```
-sudo docker run -it karthik199712/inversion:cv main.py --image ./data/1.png
+sudo docker run -it karthik199712/computer_vision:cv main.py --image ./data/1.png
 ```
 <p align="center">
   <img src="inverted.png">
@@ -44,7 +44,7 @@ sudo docker run -it karthik199712/inversion:cv main.py --image ./data/1.png
 
 ## Upright Malayalam Image
 ```
-sudo docker run -it karthik199712/inversion:cv main.py --image ./data/mal1.png
+sudo docker run -it karthik199712/computer_vision:cv main.py --image ./data/mal1.png
 ```
 <p align="center">
   <img src="mal_upright.png">
@@ -52,7 +52,7 @@ sudo docker run -it karthik199712/inversion:cv main.py --image ./data/mal1.png
 
 ## Inverted English Image
 ```
-sudo docker run -it karthik199712/inversion:cv main.py --image ./data/mal2.png
+sudo docker run -it karthik199712/computer_vision:cv main.py --image ./data/mal2.png
 ```
 <p align="center">
   <img src="mal_inverted.png">
@@ -60,7 +60,7 @@ sudo docker run -it karthik199712/inversion:cv main.py --image ./data/mal2.png
 
 ## Upright Greek Image
 ```
-sudo docker run -it karthik199712/inversion:cv main.py --image ./data/greek1.png
+sudo docker run -it karthik199712/computer_vision:cv main.py --image ./data/greek1.png
 ```
 <p align="center">
   <img src="greek_upright.png">
@@ -68,7 +68,7 @@ sudo docker run -it karthik199712/inversion:cv main.py --image ./data/greek1.png
 
 ## Inverted Greek Image
 ```
-sudo docker run -it karthik199712/inversion:cv main.py --image ./data/greek2.png
+sudo docker run -it karthik199712/computer_vision:cv main.py --image ./data/greek2.png
 ```
 <p align="center">
   <img src="greek_inverted.png">

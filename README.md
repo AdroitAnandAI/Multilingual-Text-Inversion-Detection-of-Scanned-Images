@@ -6,6 +6,9 @@ _Research Paper: Multilingual Text Inversion Detection using Shape Context, pres
 _Paper Link:_
 https://ieeexplore.ieee.org/document/9550858
 
+_Paper Presentation_
+https://youtu.be/zm9uaxdWMOA
+
 
 ## Problem Definition
 There can be problems in textual scanned images. The problem of inversion is one of the hardest anomaly to detect efficiently though it can be easily decipherable visually. Moreover, the scanned document can be in any language and the text can be anywhere in the image. 

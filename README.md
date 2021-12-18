@@ -1,9 +1,9 @@
 # Multilingual Text Inversion Detection of Scanned Images
 ## _Text Localization, Image Inversion Detection of Scanned Documents & Language Identification based on Shape Context and CV_
 
-Research Paper: Multilingual Text Inversion Detection using Shape Context, presented in the IEEE TENSYMP 2021 Conference held at Grand Hyatt Jeju, the Republic of Korea on 23-25th Aug 2021.
+_Research Paper: Multilingual Text Inversion Detection using Shape Context, presented in the IEEE TENSYMP 2021 Conference held at Grand Hyatt Jeju, the Republic of Korea on 23-25th Aug 2021._
 
-Paper Link:
+_Paper Link:_
 https://ieeexplore.ieee.org/document/9550858
 
 

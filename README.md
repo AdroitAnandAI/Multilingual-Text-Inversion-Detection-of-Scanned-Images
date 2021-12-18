@@ -1,6 +1,11 @@
 # Multilingual Text Inversion Detection of Scanned Images
 ## _Text Localization, Image Inversion Detection of Scanned Documents & Language Identification based on Shape Context and CV_
 
+Research Paper: Multilingual Text Inversion Detection using Shape Context, presented in the IEEE TENSYMP 2021 Conference held at Grand Hyatt Jeju, the Republic of Korea on 23-25th Aug 2021.
+
+Paper Link:
+https://ieeexplore.ieee.org/document/9550858
+
 
 ## Problem Definition
 There can be problems in textual scanned images. The problem of inversion is one of the hardest anomaly to detect efficiently though it can be easily decipherable visually. Moreover, the scanned document can be in any language and the text can be anywhere in the image. 
